@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Force Sign_in</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/CF.css"/>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="jambotron text-center">   
+            <img src="images/Computer Force logo.jpeg"alt="" >
+            <h1>Welcome to Computer Force</h1>
+            <h3>Computer Force is your online expert in all things computing!</h3>
+        </div>  
+    </div>
+    <div class=menu>      
+        <a class=a_home href="./CFhome.html">Home</a>
+        <div class="menu_group">
+            <div class="menu_label">Products</div>
+            <div class="dropdown">
+                <a href="CFproducts.html">Product Search</a>   
+                <div class="menu_label_2">Product Categories
+                <div class="dropdown_2">
+                    <a href="audio.html">Audio</a>
+                    <a href="computer.html">Computers</a>
+                    <a href="graphics_card.html">Graphics cards  </a>
+                    <a href="keyboard&mice.html">Keyboard and mice</a>
+                    <a href="laptop.html">Laptops</a>
+                    <a href="monitor.html">Monitors</a>
+                    <a href="networking.html">Networking</a>
+                    <a href="Peripherals.html">Peripherals</a>
+                    <a href="printing&scanning.html">Printing & scanning</a>
+                    <a href="software.html">Software</a>
+                    <a href="storage.html">Storage</a>
+                    <a href="tablets.html">Tablets</a>
+                </div>
+                </div>
+            </div>                                 
+        </div>
+        <div class="menu_group">
+            <div class="menu_label">Membership</div>
+            <div class="dropdown">
+                    <a href="sign_in.html">Member Login</a>
+                    <a href="CFregister.html">Member Registration </a>
+                    <a href="voucher.html">Gift Vouchers</a>
+                    <a href="member_beniefit.html">Member Benefits</a>
+            </div>
+        </div>
+        <div class="menu_group">
+            <div class="menu_label">Purchase</div>
+            <div class="dropdown">
+                    <a href="shopping_cart.html">Shopping cart</a>
+                    <a href="wishlist.html">Wishlist</a>
+            </div>
+        </div>
+        <div class="menu_group">
+            <div class="menu_label">Customer Services</div>
+            <div class="dropdown">
+                    <a href="delivery_information.html">Delivery information</a>
+                    <a href="collect_infor.html">Click and Collect information</a>
+                    <a href="online_enquires.html">Online Enquires</a>
+                    <a href="FAQ.html">FAQ</a>
+            </div>
+        </div>
+        <div class="menu_group">
+            <div class="menu_label">About Us</div>
+            <div class="dropdown">
+                    <a href="CFabout.html">Contact Us</a>
+                    <a href="events.html">Upcoming Events</a>
+                    <a href="info.html">Board of Directors</a>
+                    <a href="info.html">Company History</a>
+                    <a href="info.html">Company Awards</a>
+            </div>
+        </div>
+        <div class="menu_group">
+            <div class="menu_label">IT support</div>
+            <div class="dropdown">
+                    <a href="Policy&news.html">Privacy Policy</a>
+                    <a href="Policy&news.html">IT News /Blog</a>
+                    <a href="site_map.html">Site map</a>
+            </div>
+        </div>
+        <div class="Search">
+            <label for="search-text">Search Text</label>
+            <input id="search-text" type="text">
+            <label for="search-button">Search Button</label>
+            <button id="search-button" type="button">Search</button>
+        </div>
+    </div>
+    <div class=main>
+        <div class="row">
+            <div class="col-sm-9" >
+                <form action="" method="post" class="box_sign_in">
+                    <h1>Sign-in</h1>
+                    <div class="sign-in-form">
+                        <label for="Email_address">Email or mobile phone number</label>
+                        <input id="Email_address" type="email" name="Email_address"class="form-control"required >
+                    </div> 
+                    <div class="sign-in-form">
+                        <label for="Password">Password*</label>
+                        <input id="Password" type="password" name="Password"class="form-control"required>
+                    </div>       
+                    <div class="buttons sign-in-form ">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </form>
+            </div> 
+            <div class="col-sm-3">
+                    <div>
+                        <img src="images/check-out-icon.jpg" alt="">
+                    </div>
+                    <h2>Purchase</h2>
+                    <div class="P_container">
+                        <div class="item1"><h4>0 item</h4></div>
+                        <div class="item2"><h4>Cart subtotal: $0</h4></div>
+                        <div class="item3">
+                            <button class="btn btn-primary">Go to checkout</button>
+                        </div>  
+    
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright©2022 Jessie Zhao. All rights reserved.</p>
+    </div>
+    
+</body>
+</html>
